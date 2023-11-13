@@ -17,7 +17,7 @@ function M.setup()
         ignorecase = true,
         autoindent = false,
         wrap = false,
-        syntax = "on",
+        syntax = "off",
         termguicolors = false, -- default colorscheme looks shit otherwise
     }
 
