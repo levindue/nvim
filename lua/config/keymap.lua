@@ -6,6 +6,7 @@ end
 
 function M.setup()
     vim.g.mapleader = " "
+    vim.g.maplocalleader = ","
 
     -- file browser
     map("n", "-", vim.cmd.Ex)
@@ -26,8 +27,10 @@ function M.setup()
     map("t", "<C-k>", "<cmd>wincmd k<CR>")
     map("t", "<C-l>", "<cmd>wincmd l<CR>")
 
-    -- marks
-    map("n", "M", "`")
+    -- lsp
+    map("n", "<localleader>r", vim.lsp.buf.rename)
+    map("n", "<localleader>d", vim.lsp.buf.definition)
+    map("n", "K", vim.lsp.buf.hover)
 end
 
 return M
