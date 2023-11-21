@@ -33,6 +33,7 @@ function M.setup()
     -- lsp
     map("n", "<localleader>r", vim.lsp.buf.rename)
     map("n", "<localleader>d", vim.lsp.buf.definition)
+    map("n", "<localleader>f", vim.lsp.buf.format)
     map("n", "K", vim.lsp.buf.hover)
 end
 
