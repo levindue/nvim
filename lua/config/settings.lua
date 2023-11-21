@@ -3,6 +3,7 @@ local M = {}
 function M.setup()
     local options = {
         guicursor = "",
+        signcolumn = "yes",
         tabstop = 4,
         expandtab = true,
         softtabstop = 4,
