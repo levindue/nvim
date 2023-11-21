@@ -27,6 +27,9 @@ function M.setup()
     map("t", "<C-k>", "<cmd>wincmd k<CR>")
     map("t", "<C-l>", "<cmd>wincmd l<CR>")
 
+    -- math
+    map("n", "<leader>e", require("plugins.math").eval_selection)
+
     -- lsp
     map("n", "<localleader>r", vim.lsp.buf.rename)
     map("n", "<localleader>d", vim.lsp.buf.definition)
