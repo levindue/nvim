@@ -1,3 +1,10 @@
+-- Plugin to simplify writing and evaluating math in neovim
+-- should support typst and math in plaintext
+-- Typst TODO
+-- plaintext is kinda working
+-- results as virtual text
+-- support for advanced math expressions TODO
+
 local M = {}
 
 function M.eval_selection()
