@@ -1,1 +1,8 @@
-asdfasdfasdf asdfasdfasdf
+asdf
+asdf
+asdf
+asdf
+aslocal  adsf calculate_popup_height(lines, max_height_confi
+    return math.min(#lines, max_height_config, vim.o.lines - 1)
+enddf
+adf asdf asdf asdf
