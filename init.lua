@@ -1,6 +1,6 @@
 -- config
-require("config.settings").setup()
-require("config.keymap").setup()
+require("config.settings")
+require("config.keymap")
 
 -- plugins
 require("plugins.completion").setup({
