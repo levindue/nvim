@@ -12,4 +12,4 @@ require("modules.statusline").setup()
 -- require("plugins.test").setup()
 
 -- lsp
-require("lsp.servers.rust-analyzer").setup()
+-- require("lsp.servers.rust-analyzer").setup()
