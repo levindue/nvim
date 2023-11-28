@@ -7,7 +7,7 @@ vim.g.maplocalleader = ","
 
 -- file browser
 map("n", "-", vim.cmd.Ex)
-map("n", "<leader>f", ":FZF<CR>")
+map("n", "<leader>f", ":Pick files<CR>") 
 
 -- copy and paste
 map({"n", "x"}, "<leader>y", "\"+y")
@@ -25,7 +25,7 @@ map("t", "<C-k>", "<cmd>wincmd k<CR>")
 map("t", "<C-l>", "<cmd>wincmd l<CR>")
 
 -- math
-map("n", "<leader>e", require("plugins.math").eval_selection)
+map("n", "<leader>e", require("modules.math").eval_selection)
 
 -- lsp
 map("n", "<localleader>r", vim.lsp.buf.rename)
@@ -33,3 +33,4 @@ map("n", "<localleader>d", vim.lsp.buf.definition)
 map("n", "<localleader>f", vim.lsp.buf.format)
 map("n", "K", vim.lsp.buf.hover)
 
+map("n", "<leader>r", ":w <CR>:so %<CR>")

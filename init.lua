@@ -6,13 +6,10 @@ require("config.keymap")
 require("mini.pick").setup()
 
 -- plugins
-require("plugins.completion").setup({
-    window = {
-        max_width = 25,
-    },
-})
-require("plugins.statusline").setup()
-require("plugins.math").setup()
+require("modules.statusline").setup()
+
+-- require("plugins.math").setup()
+-- require("plugins.test").setup()
 
 -- lsp
 require("lsp.servers.rust-analyzer").setup()
