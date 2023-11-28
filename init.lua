@@ -2,6 +2,9 @@
 require("config.settings")
 require("config.keymap")
 
+-- mini
+require("mini.pick").setup()
+
 -- plugins
 require("plugins.completion").setup({
     window = {
