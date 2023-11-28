@@ -21,7 +21,7 @@ git clone https://github.com/levindue/nvim ~/.config/nvim
 | Shortcut   | Mode    | Description                  |
 |------------|---------|------------------------------|
 | `-`        | Normal  | File Browser                 |
-| `<leader>f`| Normal  | Fuzzy Finder                 |
+| `<leader>f`| Normal  | File Fuzzy Finder            |
 | `<leader>y`| Normal, Visual | Copy to system clipboard   |
 | `<leader>p`| Normal, Visual | Paste from system clipboard |
 | `<C-h>`    | Normal  | Window Movement (Left)       |
