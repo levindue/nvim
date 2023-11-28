@@ -1,5 +1,5 @@
 local options = {
-    guicursor = "",
+    -- guicursor = "",
     signcolumn = "yes",
     tabstop = 4,
     expandtab = true,
@@ -16,7 +16,7 @@ local options = {
     autoindent = false,
     wrap = false,
     syntax = "off",
-    termguicolors = false, -- default colorscheme looks shit otherwise
+    termguicolors = true,
 }
 
 for k, v in pairs(options) do
@@ -57,3 +57,4 @@ for k, v in pairs(plugins) do
 end
 
 vim.opt.shortmess:append({ I = true })
+vim.cmd.colorscheme "aich"
